@@ -1,5 +1,10 @@
 from flask import Flask, render_template
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# = os.getenv('#')
 
 app = Flask(__name__)
 
